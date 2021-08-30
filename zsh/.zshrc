@@ -1,33 +1,9 @@
-ZSH_THEME="maran"
 
 
-ZSH=$HOME/.oh-my-zsh
+#Initializing command line interface
 
-
-COMPLETION_WAITING_DOTS="true"
-
-plugins=(git 
-        osx
-        zsh-syntax-highlighting
-        zsh-completions
-        zsh-autosuggestions
-        brew
-        repo
-        sudo
-        knife
-        vagrant
-        bundler
-        web-search
-        ssh-agent
-        zsh-nvm
-) 
-
-autoload -U compinit && compinit
-
-source $ZSH/oh-my-zsh.sh
-
-
-
+source ~/Dotfiles/zsh/themes/geometry/geometry.zsh
+source ~/Dotfiles/zsh/themes/geometry-dir-info-prompt
 #------------
 # Settings
 #------------
@@ -48,7 +24,15 @@ export EDITOR=vim
 
 
 # Aliases
-source ~/cfg/shell/aliases.sh
+source ~/Dotfiles/shell/aliases.sh
 
+# Functions
+source ~/Dotfiles/shell/functions.sh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/Dotfiles/zsh/.fzf.zsh ] && source ~/.fzf.zsh
+
+# fzf-tab
+source ~/Dotfiles/zsh/fzf-tab/fzf-tab.plugin.zsh
+
+# zsh-syntax highlighting
+source ~/Dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
