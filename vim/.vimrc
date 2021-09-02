@@ -28,6 +28,7 @@ endif
 colorscheme anderson
 
 
+
 set background=dark
 
 filetype plugin indent on " enable file type detection
@@ -145,4 +146,24 @@ let g:vimtex_quickfix_mode=0
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+" Vim-Airline
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.colnr = ' CN:'
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ' :'
+let g:airline_symbols.maxlinenr = ' '
+let g:airline_symbols.dirty=''
+
+let g:airline_powerline_fonts = 1
+:helptags ~/.vim/pack/vendor/start/vim-airline/doc
+
 

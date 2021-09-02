@@ -2,8 +2,9 @@
 
 #Initializing command line interface
 
-source ~/Dotfiles/zsh/themes/geometry/geometry.zsh
-source ~/Dotfiles/zsh/themes/geometry-dir-info-prompt
+#source ~/Dotfiles/zsh/themes/geometry/geometry.zsh
+#source ~/Dotfiles/zsh/themes/geometry-dir-info-prompt
+
 #------------
 # Settings
 #------------
@@ -29,6 +30,9 @@ source ~/Dotfiles/shell/aliases.sh
 # Functions
 source ~/Dotfiles/shell/functions.sh
 
+# Prompt 
+source ~/Dotfiles/zsh/themes/prompt.zsh
+
 [ -f ~/Dotfiles/zsh/.fzf.zsh ] && source ~/.fzf.zsh
 
 # fzf-tab
@@ -36,3 +40,8 @@ source ~/Dotfiles/zsh/fzf-tab/fzf-tab.plugin.zsh
 
 # zsh-syntax highlighting
 source ~/Dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+# Startup ssh-agent
+eval `ssh-agent -s`
+ssh-add ~/.ssh/authorized_keys/id_ed25519
