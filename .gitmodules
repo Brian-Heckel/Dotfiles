@@ -13,12 +13,12 @@
 [submodule "zsh/themes/geometry"]
 	path = zsh/themes/geometry
 	url = https://github.com/geometry-zsh/geometry
-[submodule "/home/bheckel/Dotfiles/zsh/themes/geometry-dir-info-prompt"]
-	path = /home/bheckel/Dotfiles/zsh/themes/geometry-dir-info-prompt
+[submodule "Dotfiles/zsh/themes/geometry-dir-info-prompt"]
+	path = zsh/themes/geometry-dir-info-prompt
 	url = https://github.com/desyncr/geometry-dir-info-prompt
-[submodule "/home/bheckel/Dotfiles/zsh/fzf-tab"]
-	path = /home/bheckel/Dotfiles/zsh/fzf-tab
-	url = https://github.com/Aloxaf/fzf-tab
+[submodule "zsh/fzf-tab"]
+    path = zsh/fzf-tab
+    url = https://github.com/Aloxaf/fzf-tab
 [submodule "vim/.vim/pack/vendor/start/vim-airline"]
 	path = vim/.vim/pack/vendor/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline

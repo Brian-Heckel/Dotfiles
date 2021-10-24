@@ -1,0 +1,21 @@
+[Alias]
+    graph = log --all --graph --decorate --oneline
+    update-submodules = submodule update --init --recursive
+    upgrade-submodules = submodule update --init --remote
+[color]
+    ui = auto
+[color "grep"]
+    match = cyan bold
+    selected = blue
+    contex = normal
+    filename = green
+    separator = yellow
+    function = blue
+[merge]
+    tool = vimdiff
+[grep]
+    linenumber = true
+[user]
+    name = Brian Heckel
+    email = heckelbri@gmail.com
+
