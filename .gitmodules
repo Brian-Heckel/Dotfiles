@@ -25,3 +25,6 @@
 [submodule "vim/.vim/pack/vendor/start/vim-airline-themes"]
 	path = vim/.vim/pack/vendor/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/.vim/pack/vendor/start/syntastic"]
+	path = vim/.vim/pack/vendor/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic
