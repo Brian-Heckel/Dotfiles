@@ -45,4 +45,3 @@ source ~/Dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Startup ssh-agent
 eval `ssh-agent -s`
-ssh-add ~/.ssh/github_key

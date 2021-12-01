@@ -7,7 +7,7 @@
 [color "grep"]
     match = cyan bold
     selected = blue
-    contex = normal
+    context = normal
     filename = green
     separator = yellow
     function = blue

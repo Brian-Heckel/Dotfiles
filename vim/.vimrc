@@ -19,13 +19,13 @@ syntax on
 set t_co=256
 if has("termguicolors")
     " fix bug for vim
-    set t_8f=[38;2;%lu;%lu;%lum
+    " set t_8f=[38;2;%lu;%lu;%lum
 
     set termguicolors
 endif
 
 
-colorscheme anderson
+colorscheme carbonized-dark
 
 
 
@@ -166,4 +166,11 @@ let g:airline_symbols.dirty=''
 let g:airline_powerline_fonts = 1
 :helptags ~/.vim/pack/vendor/start/vim-airline/doc
 
+" Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
+" NerdTree
+nnoremap <C-o> :NERDTree<CR>

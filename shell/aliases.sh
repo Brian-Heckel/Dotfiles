@@ -14,6 +14,9 @@ alias mv='mv -i'
 # git related aliases
 alias gag='git exec ag'
 
+# Alias for python
+alias py='python'
+
 
 # Use pip without requiring virtualenv
 syspip() {
