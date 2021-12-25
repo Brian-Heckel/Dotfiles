@@ -11,6 +11,10 @@
     filename = green
     separator = yellow
     function = blue
+
+[init]
+    defaultBranch = main
+
 [merge]
     tool = vimdiff
 [grep]

@@ -10,12 +10,6 @@
 [submodule "zsh/zsh-syntax-highlighting"]
 	path = zsh/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
-[submodule "zsh/themes/geometry"]
-	path = zsh/themes/geometry
-	url = https://github.com/geometry-zsh/geometry
-[submodule "Dotfiles/zsh/themes/geometry-dir-info-prompt"]
-	path = zsh/themes/geometry-dir-info-prompt
-	url = https://github.com/desyncr/geometry-dir-info-prompt
 [submodule "zsh/fzf-tab"]
     path = zsh/fzf-tab
     url = https://github.com/Aloxaf/fzf-tab

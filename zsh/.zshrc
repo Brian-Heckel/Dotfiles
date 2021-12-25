@@ -31,7 +31,7 @@ source ~/Dotfiles/shell/aliases.sh
 # Functions
 source ~/Dotfiles/shell/functions.sh
 
-# Prompt 
+# Prompt
 source ~/Dotfiles/zsh/themes/prompt.zsh
 
 [ -f ~/Dotfiles/zsh/.fzf.zsh ] && source ~/.fzf.zsh
@@ -42,6 +42,7 @@ source ~/Dotfiles/zsh/fzf-tab/fzf-tab.plugin.zsh
 # zsh-syntax highlighting
 source ~/Dotfiles/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+source ~/Dotfiles/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Startup ssh-agent
 eval `ssh-agent -s`

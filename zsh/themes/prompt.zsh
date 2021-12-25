@@ -1,4 +1,4 @@
-# This Script is a copy from 
+# This Script is a copy from
 # https://github.com/anishathalye/dotfiles/blob/master/zsh/prompt.zsh
 #
 # User customizable options

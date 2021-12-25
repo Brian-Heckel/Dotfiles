@@ -11,6 +11,9 @@
 " `vim -u foo`).
 set nocompatible
 
+" Set leader key to ' '
+let mapleader = "\<Space>"
+
 " Turn on syntax highlighting.
 syntax on
 
@@ -27,9 +30,6 @@ endif
 
 colorscheme carbonized-dark
 
-
-
-set background=dark
 
 filetype plugin indent on " enable file type detection
 set autoindent
@@ -54,7 +54,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab " set tab to 4 spaces instead of 8
 if &term =~ '^screen'
-	" tmux knows the extended mouse mode
+    " tmux knows the extended mouse mode
 	set ttymouse=xterm2
 endif
 set nofoldenable " disable folding by default
@@ -137,12 +137,6 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 " Plugin Configuration
 "--------------------------
 
-" Vimtex
-let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-
-
 " CtrlP
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
@@ -165,6 +159,9 @@ let g:airline_symbols.dirty=''
 
 let g:airline_powerline_fonts = 1
 :helptags ~/.vim/pack/vendor/start/vim-airline/doc
+
+let g:airline_theme='base16_espresso'
+
 
 " Syntastic
 let g:syntastic_always_populate_loc_list = 1
