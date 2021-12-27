@@ -28,7 +28,7 @@ if has("termguicolors")
 endif
 
 
-colorscheme carbonized-dark
+colorscheme base16-humanoid-dark
 
 
 filetype plugin indent on " enable file type detection
@@ -132,6 +132,15 @@ inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 
+" Leader Key Shenanigans
+
+" Leader Leader toggles between two buffers
+nnoremap <leader><leader> <c-^>
+" Open list of buffers
+nmap <leader>; :Buffers<CR>
+" Quick Save
+nmap <leader>w :w<CR>
+
 
 "--------------------------
 " Plugin Configuration
@@ -160,7 +169,7 @@ let g:airline_symbols.dirty=''
 let g:airline_powerline_fonts = 1
 :helptags ~/.vim/pack/vendor/start/vim-airline/doc
 
-let g:airline_theme='base16_espresso'
+let g:airline_theme='alduin'
 
 
 " Syntastic
