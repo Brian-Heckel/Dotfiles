@@ -1,6 +1,7 @@
 # Use colors in coreutils utilities output
 alias ls='ls --color=auto'
 alias grep='grep --color'
+alias diff='diff --color'
 
 # ls aliases
 alias ll='ls -lah'
@@ -13,6 +14,7 @@ alias mv='mv -i'
 
 # git related aliases
 alias gag='git exec ag'
+alias gs='git status'
 
 # Alias for python
 alias py='python'

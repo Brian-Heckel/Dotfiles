@@ -140,6 +140,10 @@ nnoremap <leader><leader> <c-^>
 nmap <leader>; :Buffers<CR>
 " Quick Save
 nmap <leader>w :w<CR>
+" shows stats
+nnoremap <leader>q g<c-g>
+" Keymap for replacing up to next _ or -
+noremap <leader>m ct_
 
 
 "--------------------------
@@ -147,8 +151,8 @@ nmap <leader>w :w<CR>
 "--------------------------
 
 " CtrlP
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
+"let g:ctrlp_map = '<c-p>'
+"let g:ctrlp_cmd = 'CtrlP'
 
 " Vim-Airline
 if !exists('g:airline_symbols')
@@ -179,4 +183,10 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " NerdTree
-nnoremap <C-o> :NERDTree<CR>
+"nnoremap <C-o> :NERDTree<CR>
+
+" Fzf
+map <C-p> :Files<Cr>
+" <leader>s for Rg search
+noremap <leader>s :Rg
+
