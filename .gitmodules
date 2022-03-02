@@ -28,3 +28,6 @@
 [submodule "zsh/zsh-autosuggestions"]
 	path = zsh/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "vim/.vim/pack/vendor/start/vimtex"]
+	path = vim/.vim/pack/vendor/start/vimtex
+	url = https://github.com/lervag/vimtex
