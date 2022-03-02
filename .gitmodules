@@ -31,3 +31,9 @@
 [submodule "vim/.vim/pack/vendor/start/vimtex"]
 	path = vim/.vim/pack/vendor/start/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "vim/.vim/pack/vendor/start/fzf.vim"]
+	path = vim/.vim/pack/vendor/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/.vim/pack/vendor/start/rust.vim"]
+	path = vim/.vim/pack/vendor/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim

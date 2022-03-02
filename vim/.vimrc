@@ -188,8 +188,13 @@ map <leader>c :lclose
 " NerdTree
 "nnoremap <C-o> :NERDTree<CR>
 
-" Fzf
 map <C-p> :Files<Cr>
 " <leader>s for Rg search
 noremap <leader>s :Rg
 
+" vimtex
+filetype plugin indent on
+
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
